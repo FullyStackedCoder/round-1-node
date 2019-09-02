@@ -1,0 +1,40 @@
+{
+  "name": "round-1-node",
+  "version": "1.0.0",
+  "description": "A simple REST node and express server",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "pretest": "eslint --ignore-path .gitignore .",
+    "test": "mocha || true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FullyStackedCoder/round-1-node.git"
+  },
+  "author": "FullyStackedCoder",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FullyStackedCoder/round-1-node/issues"
+  },
+  "homepage": "https://github.com/FullyStackedCoder/round-1-node#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "eslint": "^6.2.2",
+    "eslint-config-strongloop": "^2.1.0",
+    "mocha": "^6.2.0",
+    "nodemon": "^1.19.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "jsonpatch": "^3.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.9.1",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4",
+    "sharp": "^0.23.0",
+    "uuid": "^3.3.3"
+  }
+}
