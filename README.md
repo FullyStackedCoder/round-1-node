@@ -23,5 +23,6 @@ A simple REST node and express server
    - docker build -t roundonenode:dev --target=dev to build the development only image
    - docker build -t roundonenode:test --target=test to build the test only image
    - docker build -t roundonenode:prod --target=prod to build the production only image
+3. Use :prod as tag for pulling from the docker repository.
 
 That is it for now. I will be updating this document if I remember anything else.
